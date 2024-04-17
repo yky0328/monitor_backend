@@ -35,7 +35,7 @@ def get_data():
     query = data.get('query')
     
     response = get_time_series_data(query, starttime, endtime, step='15s')
-    print(response)
+    # print(response)
     return jsonify(response)
 
 
